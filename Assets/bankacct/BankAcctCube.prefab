@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1180101737102621767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180101737102621768}
+  - component: {fileID: 1180101737102621771}
+  - component: {fileID: 1180101737102621770}
+  - component: {fileID: 1180101737102621765}
+  - component: {fileID: 1180101737102621764}
+  m_Layer: 0
+  m_Name: BankAcctCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1180101737102621768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180101737102621767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 276.6002, y: 894.5163, z: 134.72205}
+  m_LocalScale: {x: 5, y: 2.325091, z: 4}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1180101737102621771
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180101737102621767}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1180101737102621770
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180101737102621767}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6e5e003e956384ae3bcd18b1c67b7e6c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1180101737102621765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180101737102621767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1180101737102621764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180101737102621767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7e1c43f1bb84fac8a86bf023237862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 2800000, guid: 52058068a522a444084f19b048a8111a, type: 3}
+  - {fileID: 2800000, guid: 3134144bf8c114c2ea203ae6773bf0ea, type: 3}
+  - {fileID: 2800000, guid: 9b7e5683b8d3f443db9ce2f9d6a0a980, type: 3}
+  - {fileID: 2800000, guid: b17a73374cbfa45218095c93395eea07, type: 3}
+  - {fileID: 2800000, guid: be77c69324e254089a041b8f8b22ed23, type: 3}
+  - {fileID: 2800000, guid: 301803494712f4432b2d84dc15e085f3, type: 3}
+  - {fileID: 2800000, guid: 267d407d54e7841779ace6b2377d8b21, type: 3}
+  - {fileID: 2800000, guid: 5e43accb0a1954aef8f0a6a23878592c, type: 3}
+  - {fileID: 2800000, guid: 6e955cb90e90046c6891b9c9e0e15a0d, type: 3}
+  - {fileID: 2800000, guid: 2b84e90143210454ca9ee7015afd8ad2, type: 3}
+  - {fileID: 2800000, guid: c36db4c00bc114395b24b4bcf733f9c8, type: 3}
+  - {fileID: 2800000, guid: bc739cf44d94b4a21a4fada886dad03c, type: 3}
+  - {fileID: 2800000, guid: cc13065bf16014bc6a921f6eb8ae1596, type: 3}
+  - {fileID: 2800000, guid: a77c39737539548c2ae3198e365ef6dd, type: 3}
+  - {fileID: 2800000, guid: 79c15aebf5f0346aba53612d03d5473e, type: 3}
+  - {fileID: 2800000, guid: 0b89cc2ab9a4d4ef1a5f997847550f67, type: 3}
+  - {fileID: 2800000, guid: 2f8e7d321fcce468aa46f05b17053244, type: 3}
+  fps: 30
